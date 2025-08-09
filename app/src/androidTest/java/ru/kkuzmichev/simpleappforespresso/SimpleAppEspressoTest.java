@@ -28,7 +28,7 @@ public class SimpleAppEspressoTest {
 //            new ActivityTestRule<>(MainActivity.class);
 
     @Rule
-    public ActivityScenarioRule<MainActivity> mainActivityScenarioRule =
+    public ActivityScenarioRule<MainActivity> mActivityScenarioRule =
             new ActivityScenarioRule<>(MainActivity.class);
     String textView = "This is home fragment";
 
@@ -55,4 +55,6 @@ public class SimpleAppEspressoTest {
                 )
         );
     }
+
+
 }
